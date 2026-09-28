@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 //routes
-app.use('/api', userRoutes);
+app.use('/api', userRoutes);    
 
 sequelize
     .authenticate()
